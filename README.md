@@ -21,7 +21,7 @@ c. Install albumentations and other packages.
 
 ```shell
 pip install nltk
-pip install albumentations
+pip install -r requirements/albu.txt
 ```
 
 d. Install our Sparse Convolution Implementation

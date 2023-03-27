@@ -44,8 +44,8 @@ from .anchor_dy_head import AnchorDYHead
 from .fsaf_dy_head import FSAFDYHead
 from .gfl_dy_head import GFLDYHead
 from .retina_dy_head import RetinaDYHead
-from rpn_dy_head_expand import RPNDYHeadExpand
-
+from .rpn_dy_head_expand import RPNDYHeadExpand
+from .rpn_head_expand import RPNHeadExpand
 
 
 __all__ = [
@@ -62,5 +62,5 @@ __all__ = [
     'DecoupledSOLOLightHead', 'LADHead', 'TOODHead', 'MaskFormerHead',
     'Mask2FormerHead',
 
-    'AnchorDYHead', 'FSAFDYHead', 'GFLDYHead', 'RetinaDYHead', 'RPNDYHeadExpand'
+    'AnchorDYHead', 'FSAFDYHead', 'GFLDYHead', 'RetinaDYHead', 'RPNDYHeadExpand', 'RPNHeadExpand'
 ]

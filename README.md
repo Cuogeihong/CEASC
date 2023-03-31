@@ -50,7 +50,12 @@ bash tools/dist_train.sh /path/to/config-file num-gpus --work-dir /path/to/work-
 ```
 
 #### Checkpoints: 
-- Coming soon.
+We provide the following checkpoints:
+- GFL v1 baseline, corresponding to [baseline_gfl_res18_visdrone](https://github.com/Cuogeihong/CEASC/blob/main/configs/UAV/baseline_gfl_res18_visdrone.py): [Google Drive](https://drive.google.com/drive/folders/1OaLSG0Y3bz1DH3R7HB4y-1LBRHpgQ55c?usp=sharing)
+- GFL v1 CEASC, corresponding to [dynamic_gfl_res18_visdrone](https://github.com/Cuogeihong/CEASC/blob/main/configs/UAV/dynamic_gfl_res18_visdrone.py): [Google Drive](https://drive.google.com/drive/folders/1v7pby3LqmcIdDI52KKUQ43Ra3tBQdusR?usp=sharing)
+- RetinaNet baseline, corresponding to [baseline_retinanet_res18_visdrone](https://github.com/Cuogeihong/CEASC/blob/main/configs/UAV/baseline_retinanet_res18_visdrone.py): [Google Drive](https://drive.google.com/drive/folders/1Ws5UQri07GGZo_PUyGjFBQA5cI3pjn2K?usp=sharing)
+- RetinaNet CEASC, corresponding to [dynamic_retinanet_res18_visdrone](https://github.com/Cuogeihong/CEASC/blob/main/configs/UAV/dynamic_retinanet_res18_visdrone.py): [Google Drive](https://drive.google.com/drive/folders/1Gu0D5XULRkMEGNTGGKNj7X6-WiZs2a34?usp=sharing)
+
 
 ### 3. Test
 

@@ -63,6 +63,21 @@ We provide the following checkpoints:
 python tools/test.py /path/to/config-file /path/to/work-dir/latest.pth --eval bbox
 ```
 
+## Citation
+
+If you find our paper or this project helps your research, please kindly consider citing our paper in your publication.
+
+```
+@misc{ceasc,
+      title={Adaptive Sparse Convolutional Networks with Global Context Enhancement for Faster Object Detection on Drone Images}, 
+      author={Bowei Du and Yecheng Huang and Jiaxin Chen and Di Huang},
+      year={2023},
+      eprint={2303.14488},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 
 
 
